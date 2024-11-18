@@ -1,0 +1,61 @@
+/* "FF Mark W05", sans-serif */
+@import url(./footer.css);
+@import url(./main.css);
+@import url(./header.css);
+
+/*=======================================fontes==================================*/
+@font-face {
+    font-family:lolfonth2 ;
+    src: url(./fonte/FFMarkW05-Bold.8e5368c00aa72d1e1b19d7b437c375f4.woff2);
+}
+
+@font-face {
+    font-family:lolfontmd;
+    src: url(./fonte/FFMarkW05-Medium.662fbc7901e31d6bee9c91d5f2cf42a1.woff2);
+}
+
+@font-face {
+    font-family:lolfont;
+    src: url(./fonte/FFMarkW05-Ultra.f4c089710fab9b5bf7a12703bed83b8a.woff2);
+}
+/*===============================================================================*/
+
+
+/*===================================configuraçoes gerais========================*/
+h1{
+    font-family: lolfont;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+
+    background-image:url(./img/arcane2_dsktp_signup_BG_2x.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    font-style: none;
+    text-decoration: none;
+    height: 100vh;
+
+    
+}
+
+p{
+    font-family: lolfontmd;
+}
+
+h2{
+    font-family: lolfonth2;
+
+}
+

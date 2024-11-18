@@ -1,0 +1,48 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 15rem;
+    padding: 2.5rem 17rem 0rem 17rem;
+
+}
+
+#opcoes{
+    display: flex;
+
+    gap:1.5rem;
+}
+
+#opcoes > a{
+    color:rgba(187, 187, 187, 0.842);
+    text-decoration: none;
+    font-family: lolfonth2;
+
+}
+
+#linguagem{
+    border-radius:0.5rem ;
+    background-color: rgba(88, 93, 105, 0.664);
+    color:rgb(187, 187, 187) ;
+    font-family: lolfonth2;
+    width: 7rem;
+    height: 3rem;
+}
+
+#politicas{
+    color:rgba(187, 187, 187, 0.842) ;
+    display: flex;
+    gap: 0.8rem;
+    
+}
+
+#politicas > a{
+    color: white;
+    font-family:lolfonth2;
+
+}
+
+#politicas > p{
+    font-family:lolfonth2;
+
+}

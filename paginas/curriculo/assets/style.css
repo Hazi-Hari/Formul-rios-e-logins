@@ -1,0 +1,66 @@
+@import url(./formulario.css);
+
+/*==============CONFIGURAÇOES GERAIS=============*/
+@font-face {
+    font-family: kidosans;
+    src: url(./fonte/KIDOSANS.ttf);
+}
+
+@font-face {
+    font-family:starsfont ;
+    src: url(./fonte/Mister\ Stars.otf);
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image:url(./background/background-body.png);
+    background-color: rgba(255, 255, 255, 0.76); 
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+body h1{
+    margin-bottom:5rem ;
+
+}
+
+h1 {
+  font-family: starsfont;  
+  font-size: 6rem;
+
+}
+
+#botao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#botao > button{
+    width: 9rem;
+    height: 3rem;
+    font-family: starsfont;
+    border-radius: 2rem;
+}
+
+/*=================================================*/
+
+
+

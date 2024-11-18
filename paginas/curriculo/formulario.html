@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>curriculo</title>
+    <link rel="stylesheet" href="./assets/style.css">
+
+    
+</head>
+<body>
+    <h1> FORMULÁRIO</h1>
+
+  <div>
+
+     <section class="borda">
+         
+        <fieldset class="form-config">
+            <h2>DADOS PESSOAIS</h2>
+            
+            <div>
+                <label for="nome-completo">NOME COMPLETO:</label>
+                <input type="text" id="nome-completo" required>
+            </div>
+
+            <div>
+                <label for="data"> DATA DE NASCIMENTO:</label>
+                <input type="date" required id="data">
+            </div>
+
+            <div class="space">
+                
+                <div class="selecoes">
+                    <label for="estado">ESTADO CIVIL:</label>
+                    <select  class="borda-selection">
+                        <option value="" disabled selected></option>
+                        <option value="casado">Casado</option>
+                        <option value="solteiro">Solteiro</option>
+                        <option value="viuvo">Viuvo</option>
+                    </select>
+                </div>
+
+                <div class="selecoes">
+                    <label for="sexo">SEXO:</label>
+                    <select  class="borda-selection">
+                        <option value="" disabled selected></option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                    </select>
+                </div>
+                
+            </div>
+
+            <div class="selecoes">
+                <label for="cidade">CIDADE:</label>
+                    <select  class="borda-selection">
+                        <option value="" disabled selected></option>
+                        <option value="samambaia">Samambaia</option>
+                        <option value="recanto-da-emas">Recanto Da Emas</option>
+                        <option value="ceilandia">Ceilandia</option>
+                    </select>
+            </div>
+
+            <div>
+                <label for="endereco">ENDEREÇO:</label>
+                <input type="text" id="endereco" required placeholder="ex. Nome da Rua, 56. Bloco 2, AP 301">
+            </div>
+
+            <div>
+                <label for="cep">CEP:</label>
+                <input type="number" required id="number">
+            </div>
+
+            
+
+          </fieldset>
+    </section>
+
+    <section class="borda">
+
+        <fieldset class="form-config">
+            <h2>DOCUMENTOS</h2>
+
+            <div>
+                <div class="selecoes">
+                    <label for="rg"> RG</label>
+                    <input type="number" id="rg" required>
+                </div>
+
+                <div class="selecoes">
+                    <label for="cpf"> CPF</label>
+                    <input type="number" id="cpf" required placeholder="xxx.xxx.xxx-xx">
+                </div>
+            </div>
+
+            <div class="space2">
+                <label for="habilitacao">POSSUI HABILITAÇÃO?</label>
+                <div class="selecoes2">
+                    <label for="">
+                        <input type="radio" name="escolha" id="sim">
+                        SIM
+                    </label>
+                    <label for="">
+                        <input type="radio" name="escolha" id="nao">
+                        NÃO
+                    </label>
+                </div>
+                
+            </div>
+
+            <div class="selecoes">
+                <label for="categoria">QUAL CATEGORIA?</label>
+                    <select  class="borda-selection">
+                        <option value="" disabled selected></option>
+                        <option value="categoria-a">Categoria A</option>
+                        <option value="categoria-b">Categoria B</option>
+                        <option value="categoria-c">Categoria C</option>
+                        <option value="categoria-d">Categoria D</option>
+                        <option value="categoria-e">Categoria E</option>
+                    </select>
+            </div>
+
+        </fieldset>
+
+    </section>
+
+    <section class="borda">
+
+        <fieldset class="form-config">
+            <h2>CONTATOS</h2>
+
+            <div>
+                <div class="selecoes3">
+                    <label for="telefone-fixo"> TELEFONE FIXO 01:</label>
+                    <input type="number" id="telefone-fixo">
+                </div>
+
+                <div class="selecoes3">
+                    <label for="telefone-fixo2"> TELEFONE FIXO 02:</label>
+                    <input type="number" id="telefone-fixo2" >
+                </div>
+            </div>
+
+            <div>
+                <div class="selecoes3">
+                    <label for="celular"> CELULAR:</label>
+                    <input type="number" id="celular" required placeholder="(xx) xxxxx-xxxx">
+                </div>
+
+                <div class="selecoes3">
+                    <label for="celular2"> CELULAR 02:</label>
+                    <input type="number" id="celular2" required placeholder="(xx) xxxxx-xxxx">
+                </div>
+            </div>
+
+            <div>
+                <label for="e-mail">E-MAIL:</label>
+                <input type="email" id="e-mail" required>
+            </div>
+            
+        </fieldset>
+
+        
+
+    </section>
+
+    <div id="botao"><button>ENVIAR</button></div>
+     
+    
+  </div>
+    
+    
+</body>
+</html>

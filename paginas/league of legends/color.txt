@@ -1,0 +1,7 @@
+#38A950 xbox
+
+#279AE9 playstation
+
+#039BE5 facebook
+
+rgb(148, 163, 205) letra

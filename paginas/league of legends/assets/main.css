@@ -1,0 +1,172 @@
+main{
+    margin: 0rem 10.8rem;
+
+}
+
+#centro{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 74rem;
+    
+}
+
+#centro > div > h1{
+    font-size:9.5rem ;
+    color: white;
+    width: 60rem;
+    
+}
+
+#criar {
+    
+    width: 80rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    
+}
+/* <!--======================================================BARRA DE LOGIN================================================--> */
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-image: url(./img/loginbanner.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+    width: 50rem;
+    height: 70rem;
+}
+
+.login > h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.login > p {
+    font-size: 2rem;
+    color: rgb(148, 163, 205);
+    text-align: center;
+    
+}
+
+#cadastro{
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#email{
+    height: 5.5rem;
+    border-radius: 0.5rem;
+    background-color:rgb(29, 41, 73) ;
+    border-style: none;
+    padding: 0rem 2rem;
+
+
+}
+
+#checkbox{
+    display: flex;
+    font-size: 1.3rem;
+    font-family: lolfonth2;
+    color: rgb(187, 187, 187);
+    
+}
+
+#checkbox > label{
+    width: 45rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+#check{
+    height: 4rem;
+    width: 4rem;
+}
+
+.botoes > button{
+    width: 8.688rem;
+    height:3.2rem;
+    border-radius: 1rem;
+}
+
+#cadastro-baixo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:2rem;
+    height:30rem;
+}
+
+.separacao{
+    margin: 3.5rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: .89;
+    color: rgb(148, 163, 205);
+}
+
+.botoes{
+    margin: 1.5rem 0rem  0rem;
+}
+
+#facebook{
+background-color:#039BE5 ;
+}
+
+#google{
+background-color: white;
+}
+
+#mac{
+background-color: white;
+}
+
+#xbox{
+background-color:#38A950 ;
+}
+
+#playstation{
+background: #279AE9;
+}
+
+#separacao2 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    justify-content: end;
+    height:20rem ;
+    gap: 1rem;
+    color:rgb(148, 163, 205) ;
+
+}
+
+#separacao2 > a {
+    font-family: lolfontmd;
+    color:rgb(148, 163, 205) ;
+    text-decoration: none;
+}
+
+#seta{
+    height: 2;
+    background-color: rgba(75, 93, 143, 0.5);
+    border-radius: 3rem;
+    border-style: none;
+}
+
+#seta > img{
+    height: 8rem;
+}
+/* <!--======================================================BARRA DE LOGIN================================================--> */
